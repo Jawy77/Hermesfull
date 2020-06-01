@@ -14,6 +14,8 @@ The total amount of ether "ether is a cost that is generated in each transmitted
 
 It is a packet exchange an encrypted channel is opened channel packet frames are sent and the channel is closed
 
+
+
 code solidity
 
 "These contracts were constructed from other examples of existing contracts for the example"
