@@ -3,7 +3,7 @@ Smart contrat for encrypted communications
 
 The idea is to implement a network of blockchain-smart contract nodes on existing satellites and to interconnect them so that it is a bridge between the space station and the ground networks, i.e. "5G- Cloud- Fog Computing-IoT devices of NASA and other space organizations".
 The focus is on the intelligent contract that will be the key in this decentralized communication, this will provide resilience between nodes and recovery of information between nodes, consensus of encrypted information, no loss of signal, streaming almost in real time.
-![](images/filename Hermes.png)
+![](images/Hermes.png
 
 The messages sent contain the information 
 
