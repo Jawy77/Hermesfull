@@ -13,3 +13,44 @@ The only address is used to prevent repeat contracts and vulnerabilities
 The total amount of ether "ether is a cost that is generated in each transmitted communication package" 
 
 It is a packet exchange an encrypted channel is opened channel packet frames are sent and the channel is closed
+
+code solidity
+
+"These contracts were constructed from other examples of existing contracts for the example"
+
+pragma solidity >=0.5.0;
+
+contract Spatial_Comunication {
+    address owner = comunicacones_sender;
+    
+    mapping(uint256 => bool) usedNonce;
+    
+    constructor() public Spatial_Comunication {}
+    
+    function Contrucctioncomunication(ContractAddres, amount) {
+        return abi.soliditySHA3 (
+         ["address", "uint256"],
+            ["ContractAddres", "amount"],
+            
+          );
+            
+    }
+    
+    function Message (Message, callback) {
+        web3.eth.comunicationpersonal.sing(
+            "0x" + SingMessage("hex"),
+            web3.eth.defaultacount, 
+            callback
+            
+            
+            );
+    }
+    
+    function Unique_communication(ContractAddres, amount, callback) {
+        var UniqueMessage = constructorMessage(ContractAddres, amount);
+        UniqueMessage(message, callback);
+    }
+    
+   second part
+   
+   
