@@ -56,4 +56,46 @@ contract Spatial_Comunication {
     
    second part
    
+   ragma solidity 0.5.0;
+
+
+//ignature Algorithm (ECDSA)
+Library ECDSA {
+    function ecrecover(bytes32 hash, bytes memory signature) internal pure returns (address) {
+        //length signature
+        if (signature.length ! = 65) {
+            
+            revert ("ECDSA: signature ivalid")
+            
+            
+            divide signature
+            
+            bytes32 r;
+            bytes32 s;
+            uint256 v;
+            
+            
+            assembly {
+                
+                r := load(add(signature, 0x20))
+                
+                s := load(add(signature, 0x40))
+                
+                v :=byte(load (add(signature, 0x60)))
+                
+            }
+            
+            if ( uint256 (s) >  ) {
+                revert("ECDSA: invalid signature 's' value");
+                
+                address signer = ecrecover(hash, v, r, s);
+        require(signer != address(0), "ECDSA: invalid signature");
+
+        return signer;
+    }
+        }
+    }
+    
+   
+}
    
