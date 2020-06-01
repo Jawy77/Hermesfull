@@ -56,7 +56,7 @@ contract Spatial_Comunication {
     
    second part
    
-   ragma solidity 0.5.0;
+   pragma solidity 0.5.0;
 
 
 //ignature Algorithm (ECDSA)
